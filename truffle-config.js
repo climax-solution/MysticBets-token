@@ -84,13 +84,13 @@ module.exports = {
   },
   compilers: {
     solc: {
-      version: "0.8.0",  /// Final version of solidity-v0.5.x
-      // settings: {
-      //   optimizer: {
-      //     enabled: true,
-      //     runs: 200
-      //   }
-      // }
+      version: "v0.8.0+commit.c7dfd78e",  /// Final version of solidity-v0.5.x
+      settings: {
+        optimizer: {
+          enabled: true,
+          runs: 1500
+        }
+      }
     }
   }
 };
